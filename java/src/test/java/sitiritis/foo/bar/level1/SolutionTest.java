@@ -14,8 +14,8 @@ class SolutionTest {
   @DisplayName("From task: area = 12")
   void solutionFromTaskCase1() {
     assertIterableEquals(
-      solutionList(12),
-      Arrays.asList(9, 1, 1, 1)
+      Arrays.asList(9, 1, 1, 1),
+      solutionList(12)
     );
   }
 
@@ -23,8 +23,8 @@ class SolutionTest {
   @DisplayName("From task: area = 15324")
   void solutionFromTaskCase2() {
     assertIterableEquals(
-      solutionList(15324),
-      Arrays.asList(15129, 169, 25, 1)
+      Arrays.asList(15129, 169, 25, 1),
+      solutionList(15324)
     );
   }
 }
