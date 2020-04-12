@@ -1,13 +1,12 @@
-package sitiritis.foo.bar.level2;
+package sitiritis.foo.bar.level2.challenge1;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static sitiritis.foo.bar.level2.Solution.solution;
-import static sitiritis.foo.bar.level2.Solution.moveFromSourceBy;
-import static sitiritis.foo.bar.level2.Solution.possibleMovesFrom;
-import static sitiritis.foo.bar.level2.Solution.cellNumberToCoordinates;
-import static sitiritis.foo.bar.level2.Solution.coordinatesToCellNumber;
+import static sitiritis.foo.bar.level2.challenge1.Solution.solution;
+import static sitiritis.foo.bar.level2.challenge1.Solution.moveFromSourceBy;
+import static sitiritis.foo.bar.level2.challenge1.Solution.possibleMovesFrom;
+import static sitiritis.foo.bar.level2.challenge1.Solution.cellNumberToCoordinates;
+import static sitiritis.foo.bar.level2.challenge1.Solution.coordinatesToCellNumber;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

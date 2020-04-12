@@ -1,4 +1,4 @@
-package sitiritis.foo.bar.level2;
+package sitiritis.foo.bar.level2.challenge1;
 
 import java.util.ArrayDeque;
 import java.util.HashSet;
